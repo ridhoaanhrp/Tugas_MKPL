@@ -32,7 +32,7 @@ public class LoginControl <T>{
     public void findDataUserLogin (LogInGUI login,String nim,String password){
         if (ConditionMethod.isAllfieldIsemptyOnlogin(login) == true){
             
-            DialogMessage.dialogFormWarning("Tolong isi field nim dan password", "Warning");
+            DialogMessages.dialogFormWarning("Tolong isi field nim dan password", "Warning");
             
         } else if (ConditionMethod.isFieldUsernameEmpty(login) == true) {
             
