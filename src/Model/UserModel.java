@@ -11,14 +11,14 @@ package Model;
  */
 public class UserModel {
 
-    private String nim;
-    private String Name;
-    private String faculty;
-    private String telphoneNumber;
-    private String studyProgram;
-    private String email;
-    private String Paswword;
-    private int saldo;
+    public String nim;
+    public String Name;
+    public String faculty;
+    public String telphoneNumber;
+    public String studyProgram;
+    public String email;
+    public String Paswword;
+    public int saldo;
     
     // Constructor
     public UserModel
