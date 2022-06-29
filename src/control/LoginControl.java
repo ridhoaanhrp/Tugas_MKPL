@@ -86,6 +86,6 @@ public class LoginControl <T>{
             }
             index = index + 1;
         }
-        return index;
+        return index
     }
 }
